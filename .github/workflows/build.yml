@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      ERLANG_VERSION: 23.3.4.4
+      IMAGE_TAG: 23.3.4.4
     steps:
       ##
       ## Setup
@@ -31,6 +31,6 @@ jobs:
         with:
           push: true
           build-args: |
-            ERLANG_VERSION=${{ env.ERLANG_VERSION }}
+            IMAGE_TAG=${{ env.IMAGE_TAG }}
           tags: |
-            ghcr.io/strongpool/erlang:${{ env.ERLANG_VERSION }}
+            ghcr.io/strongpool/erlang:${{ env.IMAGE_TAG }}
