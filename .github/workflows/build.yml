@@ -33,5 +33,4 @@ jobs:
           build-args: |
             ERLANG_VERSION=${{ env.ERLANG_VERSION }}
           tags: |
-            ghcr.io/djwhitt/erlang:${{ env.ERLANG_VERSION }}
-            ghcr.io/djwhitt/erlang:latest
+            ghcr.io/strongpool/erlang:${{ env.ERLANG_VERSION }}
