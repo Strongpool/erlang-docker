@@ -1,3 +1,3 @@
 # Erlang Docker
 
-A mirror of the official Erlang image from Docker Hub.
+A mirror of the [official Erlang Docker image](https://hub.docker.com/_/erlang).
