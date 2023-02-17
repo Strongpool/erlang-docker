@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      IMAGE_TAG: 24.2.1.0
+      IMAGE_TAG: 24.3.4.7
     steps:
       ##
       ## Setup
